@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio02POST</title>
+</head>
+<body>
+    <h1>
+        Crie um formulário onde o usuário informa seu nome, seu e-mail, sua data de 
+        nascimento e escolha numa lista suspensa a bandeira do seu cartão de crédito. Ao clicar 
+        em em botão de submit, exiba todos os dados na tela e não exiba o formulário após o 
+        preenchimento.
+    </h1>
+    <form action="exercicio02POST.php" method="POST">
+        <p>Digite o seu nome: <input type="text" name="nome" id="$nome" required></p>
+        <p>Digite o seu e-mail: <input type="text" name="email" id="$email" required></p>
+        <p>Digite sua data de nacimento: <input type="date" name="data" id="$data" required></p>
+        <select name="bandeira" id="$bandeira" required>
+            <option value="Visa"> Visa </option>
+            <option value="Mastercard"> Mastercard </option>
+        </select>   
+        <input type="submit" value="ENVIAR">
+    </form>
+</body>
+</html>
