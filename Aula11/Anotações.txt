@@ -1,0 +1,28 @@
+Interpolação
+[é utilizado em diferentes texto para misturar com variaveis.
+    Ex:
+    
+    echo"Meu nome é {this->$nome}!!!"
+
+    isso interpolará a variavel com o texto, inves de concatena-lo.    
+]
+auth
+fir
+zelth
+aich
+viven
+velth
+ziben
+arch
+zen
+prio
+
+prio to auth
+prio to fir
+prio to zelth
+prio to aihch
+prio to viven
+prio to velth
+prio to ziben
+prio to arch
+prio to zen
